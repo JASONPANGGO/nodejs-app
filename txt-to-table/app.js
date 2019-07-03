@@ -15,7 +15,7 @@ var subject = ''
 
 // 发件人
 var transporter = nodemailer.createTransport(smtpTransport({
-    service: 'zenmen',
+    service: 'outlook',
     auth: {
         user: user,
         pass: pass
