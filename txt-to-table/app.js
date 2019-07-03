@@ -4,7 +4,7 @@ const path = require("path")
 const nodemailer = require("nodemailer")
 const smtpTransport = require("nodemailer-smtp-transport")
 
-// 这里写你的邮箱如 pengzh@zenmen.com
+// 这里写你的邮箱如 jason_pang@outlook.com
 var user = ''
 // 这里写你的邮箱的smtp授权码
 var pass = ''
